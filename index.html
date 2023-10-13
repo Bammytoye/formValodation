@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🧑‍💻Form Validation (Zeke)</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <form id="form" class="form" action="Register" autocomplete="off">
+            <h1>Register with Zeke FusionTech</h1>
+                <div class="form-control">
+                    <label for="firstName">First Name:</label>
+                    <input id="firstName" type="text" placeholder="First name">
+                    <small>Error Message</small>
+                </div>
+
+                <div class="form-control">
+                    <label for="lasttName">Last Name:</label>
+                    <input id="lastName" type="text" placeholder="Surname">
+                    <small>Error Message</small>
+                </div>
+
+                <div class="form-control">
+                    <label for="usertName">Username:</label>
+                    <input id="userName" type="text" placeholder="Username">
+                    <small>Error Message</small>
+                </div>
+
+                <div class="form-control">
+                    <label for="email">Email:</label>
+                    <input id="email" type="email" placeholder="Email">
+                    <small>Error Message</small>
+                </div>
+
+                <div class="form-control">
+                    <label for="password">Password:</label>
+                    <input id="password" type="password" placeholder="Password">
+                    <small>Error Message</small>
+                </div>
+
+                <div class="form-control">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input id="confirmPassword" type="password" placeholder="Confirm Password">
+                    <small>Error Message</small>
+                </div>
+
+                <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="form.js"></script>
+</body>
+</html>
